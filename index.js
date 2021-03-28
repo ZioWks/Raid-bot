@@ -150,7 +150,7 @@ client.on('message',  msg => {
             msg.delete();
             let inviteEmbed = new Discord.MessageEmbed()
             .setColor('BLUE')
-            .setDescription('[Clique Ici](https://discord.com/oauth2/authorize?client_id=817839025451958342&scope=bot&permissions=8)')
+            .setDescription('[Clique Ici](https://discord.com/oauth2/authorize?client_id=809549624817745980&scope=bot&permissions=8)')
         msg.channel.send(inviteEmbed)
         }
         
