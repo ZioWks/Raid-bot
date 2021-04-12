@@ -146,6 +146,7 @@ client.on('message',  msg => {
         })  
         }
         
+  
         if(msg.content === '*addbot'){
             msg.delete();
             let inviteEmbed = new Discord.MessageEmbed()
